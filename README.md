@@ -19,7 +19,8 @@ Circle is a full-stack, well rounded restaurant management application. It allow
 ![Main Page](public/assets/main.gif)
 -----------------------
 ## Deployed link
-[add heroku link here]
+
+https://circle-restaurant-mgmt-02.herokuapp.com/
 
 -----------------------
 ## Installation
@@ -64,7 +65,7 @@ Orders.associate = function (models) {
 };
 ```
 
-<!-- [Add comments here] -->
+We have several routes for items, orders, and seating. The items and seating routes are used to give the user and admin both functionality with adding orders, editing and deleting orders. The seating routes are used for displaying the orders and keeping track of customers.
 
 ```javascript
 app.get("/api/orders/seating/:id", function (req, res) {
